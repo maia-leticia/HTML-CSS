@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,400;1,700&family=Open+Sans:ital@0;1&family=Work+Sans:wght@300&display=swap');
+        body{
+            font-family: 'Open Sans';
+            background-color: rgb(240, 190, 190);
+            color: rgb(189, 44, 88)
+        }
+        .bloco{
+            background-color: rgb(164, 186, 194);
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 10px;
+            text-align: center;
+            color: black;
+        }
+        .bloco:hover{
+            background-color: crimson;
+        }
+        #frase{
+            background-color: rgb(240, 190, 190);
+            border: none;
+            text-align: left;
+            font-size: 1.3em;
+        }
+        #frase > p{
+            display: none;
+        }
+        #frase:hover > p{
+            display: block;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: crimson;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: ' [LINK]';
+            font-size: 0.6em;
+            color: gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Testando conhecimentos sobre <em>pseudo-elementos</em> e <em>pseudo-classes</em>:</h1>
+    <h2>Testando a pseudo classe Hover:</h2>
+    <div class="bloco">1</div>
+    <div class="bloco">2</div>
+    <div class="bloco">3</div>
+    <div id="frase">
+        passe aqui!
+        <p>Oláaaaaa</p>
+    </div>
+    <h2>Vamos estilizar Links!</h2>
+    <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Whatsapp</a></li>
+    </ul>
+</html>

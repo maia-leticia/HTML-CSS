@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #FA8DAB;
+}
+
+h1{
+    text-align: center;
+    color: #3B2128;
+}
+
+h2{
+    color: #59323C;
+}
+
+.basico{
+    color: blue;
+}
+
+.intermed{
+    color: yellow;
+}
+
+.avanc{
+    color: red;
+}
+
+p{
+    text-align: justify;
+}
+
+#ins{
+    font-style: italic;
+}
