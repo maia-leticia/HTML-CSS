@@ -35,9 +35,9 @@ a:hover{
     text-decoration: underline;
 }
 
-section{
+.normal, .imagem{
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 10vh; 
     line-height: 2em;
     padding-left: 30px;
 }
@@ -52,7 +52,7 @@ section{
 }
 
 .imagem > p{
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.329);
     width: 400px;
 }
 
