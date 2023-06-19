@@ -11,7 +11,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center; 
-    background-color: rgb(255, 127, 202);
 }
 
 main{
@@ -35,7 +34,7 @@ main{
     top: 80px;
     left: 22px;
     height: 472px;
-    width: 269px;
+    width: 267px;
 }
 
 #redes{
