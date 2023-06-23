@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    
+    <h1>Teste de Formulário</h1>
+    
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="de 0 a 10" step="0.5" required>
+        </p>
+
+        <p>
+            <label for="iperiodo">Periodo Letivo</label>
+            <input type="month" name="periodo" id="iperiodo" value="2023-06">
+        </p>
+
+        <p>
+            <label for="idia">Dia da prova</label>
+            <input type="date" name="dia" id="idia" required value="2021-06-23">
+        </p>
+
+        <p>
+            <label for="ihora">Horário da prova</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>
