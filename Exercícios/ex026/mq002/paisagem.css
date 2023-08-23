@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Configurações do Aparelho Deitado (Paisagem)*/
+
+body{
+    background-image: url(img/cev-landscape.jpg);
+    background-position: left bottom;
+}

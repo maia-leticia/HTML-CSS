@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Configurações do Aparelho em pé (Retrato)*/
+
+body{
+    background-image: url(../mq002/img/cev-portrait.jpg);
+    background-position: center bottom;
+}
