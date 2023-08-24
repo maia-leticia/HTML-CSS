@@ -4,9 +4,10 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-body{
+body, html{
     background-color: lightblue;
     width: 100vw;
 }
@@ -46,7 +47,7 @@ header a {
 
 main{
     background-color: white;
-    width: 80vw;
+    width: 90vw;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
