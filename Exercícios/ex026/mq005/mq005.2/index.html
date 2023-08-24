@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>Menu Responsivo</title>
+</head>
+<body onresize="tamanhoTela()">
+    <header>
+        <h1>Meu Site</h1>
+        <div class="material-symbols-outlined" id="icon" onclick="abrirMenu()">
+            menu
+        </div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <h2>Testando Media Queries</h2>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ex possimus excepturi omnis id? Aspernatur qui excepturi explicabo iste, laboriosam sapiente consequatur error dolores placeat natus ducimus, debitis ratione at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores aut exercitationem commodi a dolorum dolore consectetur fugit error magni facilis animi sunt quasi, illo corrupti officia architecto itaque saepe.lorem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi inventore quod totam minus est aliquid ullam dicta tempora, odio, id nostrum? Laudantium, aliquam minima accusamus suscipit ullam magni nihil! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ut distinctio porro deserunt. Voluptatem quia ex aliquid fuga fugit et possimus suscipit quae delectus eveniet error rem non, unde deserunt.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora, dicta odio unde nesciunt ab harum tempore nobis quae est, in aliquid vero distinctio perferendis voluptate debitis ipsa. Officiis, libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iure sunt maxime excepturi nemo accusamus, esse eaque rerum, veniam autem at fuga recusandae laudantium, omnis quos inventore incidunt voluptas nobis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, est minima. Voluptate ipsum blanditiis deleniti unde amet saepe! Ratione, adipisci soluta. Vero quibusdam enim cupiditate quos, itaque sapiente earum fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, expedita officiis? Necessitatibus facilis alias dolore repellat cum autem aut dolorem! Facere et pariatur deserunt hic dolorum perferendis tempore, quae animi?
+            </p>
+        </article>
+    </main>
+    <script>
+
+        function tamanhoTela(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }
+            else{
+                itens.style.display = 'none'
+            }
+        }
+
+        function abrirMenu(){
+            if (itens.style.display == 'none'){
+                itens.style.display = 'block'
+            }
+            else{
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>

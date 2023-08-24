@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+@media screen and (min-width:768px){
+    #itens{
+        display: block;  
+        padding-bottom: 10px;
+        
+    }
+
+    #icon{
+        display: none;
+    }
+
+    menu li{
+        display: inline-block;
+        background-color: #F3D3A3;
+        border-radius: 20px;
+    }
+}
